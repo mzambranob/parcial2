@@ -9,12 +9,11 @@ import { Course } from './course';
 })
 export class CourseService {
 
-private apiUrl = environment.baseUrl + 'courses.json';
-constructor(private http: HttpClient) { }
+  private apiUrl = environment.baseUrl + 'courses.json';
+  constructor(private http: HttpClient) { }
 
-getCourses(): Observable<Course[]> {
-  return this.http.get<Course[]>(this.apiUrl);
-}
-
+  getCourses(): Observable<Course[]> {
+    return this.http.get<Course[]>(this.apiUrl);
+  }
 
 }

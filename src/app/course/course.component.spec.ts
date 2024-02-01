@@ -14,51 +14,51 @@ import { Course } from './course';
 
 
 describe('BookListComponent', () => {
- let component: CourseComponent;
- let fixture: ComponentFixture<CourseComponent>;
- let debug: DebugElement;
+  let component: CourseComponent;
+  let fixture: ComponentFixture<CourseComponent>;
+  let debug: DebugElement;
 
 
- beforeEach(async(() => {
-   TestBed.configureTestingModule({
-     imports: [HttpClientModule],
-     declarations: [ CourseComponent ],
-     providers: [ CourseService ]
-   })
-   .compileComponents();
- }));
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      imports: [HttpClientModule],
+      declarations: [ CourseComponent ],
+      providers: [ CourseService ]
+    })
+    .compileComponents();
+  }));
 
 
- beforeEach(() => {
-   fixture = TestBed.createComponent(CourseComponent);
-   component = fixture.componentInstance;
+  beforeEach(() => {
+    fixture = TestBed.createComponent(CourseComponent);
+    component = fixture.componentInstance;
 
 
-   component.courses = [
-     new Course(faker.lorem.sentence(), faker.person.fullName(), faker.number.int())
-   ]
+    component.courses = [
+      new Course(faker.lorem.sentence(), faker.person.fullName(), faker.number.int())
+    ]
 
 
-   fixture.detectChanges();
-   debug = fixture.debugElement;
- });
+    fixture.detectChanges();
+    debug = fixture.debugElement;
+  });
 
 
- it('should create', () => {
-   expect(component).toBeTruthy();
- });
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
 
 
- it("Component has a table", () => {
-   expect(debug.query(By.css("tbody")).childNodes.length).toBeGreaterThan(0);
- });
+  it("Component has a table", () => {
+    expect(debug.query(By.css("tbody")).childNodes.length).toBeGreaterThan(0);
+  });
 
 
- it('should have an dd element ', () => {
-   const dd = debug.query(By.css('dd'));
-   const content: HTMLElement = dd.nativeElement;
-   expect(content.textContent).toEqual(component.courses[0].name)
- });
+  it('should have an dd element ', () => {
+    const dd = debug.query(By.css('dd'));
+    const content: HTMLElement = dd.nativeElement;
+    expect(content.textContent).toEqual(component.courses[0].name)
+  });
 
 
 });
