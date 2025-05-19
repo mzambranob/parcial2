@@ -1,0 +1,71 @@
+{
+    "id": "2c820b84-61f1-4e6b-9e4a-575e9bfa53aa",
+    "airlineName": "Cathay Pacific",
+    "country": "China",
+    "city": "Jiangchuanlu",
+    "address": "0 Bunting Center",
+    "identityColor": "#903aac",
+    "slogan": "recontextualize synergistic niches",
+    "flights": [
+        {
+            "id": "68b220a2-40dc-407d-9cf5-05fca72435de",
+            "departureAirport": "Amsterdam Airport Schiphol",
+            "departureCountry": "Netherlands",
+            "departureCity": "Amsterdam",
+            "arrivalAirport": "Charles de Gaulle",
+            "arrivalCountry": "France",
+            "arrivalCity": "Paris",
+            "departureTime": "18:30",
+            "flightDuration": 3,
+            "image": "http://dummyimage.com/100x100.png/cc0000/ffffff"
+        },
+        {
+            "id": "923edf3a-035a-495f-926d-6877615c7672",
+            "departureAirport": "Toronto Pearson",
+            "departureCountry": "Canada",
+            "departureCity": "Toronto",
+            "arrivalAirport": "John F. Kennedy International",
+            "arrivalCountry": "USA",
+            "arrivalCity": "New York",
+            "departureTime": "15:15",
+            "flightDuration": 3,
+            "image": "http://dummyimage.com/100x100.png/dddddd/000000"
+        },
+        {
+            "id": "03dec9a8-5670-4cc0-a461-92e1245453f3",
+            "departureAirport": "Amsterdam Airport Schiphol",
+            "departureCountry": "Netherlands",
+            "departureCity": "Amsterdam",
+            "arrivalAirport": "Hamad International",
+            "arrivalCountry": "Qatar",
+            "arrivalCity": "Doha",
+            "departureTime": "10:00",
+            "flightDuration": 4,
+            "image": "http://dummyimage.com/100x100.png/dddddd/000000"
+        },
+        {
+            "id": "d9941251-13ff-4b01-8bf5-b57d5d935e68",
+            "departureAirport": "Indira Gandhi International",
+            "departureCountry": "India",
+            "departureCity": "Delhi",
+            "arrivalAirport": "Chhatrapati Shivaji International",
+            "arrivalCountry": "India",
+            "arrivalCity": "Mumbai",
+            "departureTime": "21:15",
+            "flightDuration": 1.5,
+            "image": "http://dummyimage.com/100x100.png/dddddd/000000"
+        },
+        {
+            "id": "e18cb20a-e5fa-45c4-95f6-84bee22c2192",
+            "departureAirport": "Dubai International",
+            "departureCountry": "UAE",
+            "departureCity": "Dubai",
+            "arrivalAirport": "Bole International",
+            "arrivalCountry": "Ethiopia",
+            "arrivalCity": "Addis Ababa",
+            "departureTime": "20:15",
+            "flightDuration": 4,
+            "image": "http://dummyimage.com/100x100.png/ff4444/ffffff"
+        }
+    ]
+}
